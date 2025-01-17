@@ -5,12 +5,47 @@ body {
 /* Home Page Netflix ------------------------------ */
 
 .homePageNetflix {
+    justify-content: center;
+}
+
+.profilsNetflix {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
 }
 
 .whoText {
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+}
+
+.whoTextZone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.profilPicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.profilPictureTheo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px;
+} 
+
+.nameNetflix {
+    color:#515151;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
