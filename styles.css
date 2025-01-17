@@ -1,0 +1,16 @@
+body {
+    background-color:#141414
+}
+
+/* Home Page Netflix ------------------------------ */
+
+.homePageNetflix {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.whoText {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
