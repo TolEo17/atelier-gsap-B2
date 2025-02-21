@@ -16,7 +16,6 @@ mm.add({
 let tlIntro = gsap.timeline({
     scrollTrigger:{
         trigger:".Section1",
-        markers: true,
         id:"Section1",
         start:"top 0%",
         end: "+=2000",
@@ -55,7 +54,6 @@ gsap.to(".logoEsd", {
     y: '100px',
     scrollTrigger:{
         trigger:".Section2",
-        markers: true,
         id:"Section2",
         start:"top 0%",
         end: "+=1000",
@@ -72,7 +70,6 @@ gsap.to(".logoEsd", {
 let timelineLogiciel1 = gsap.timeline({
     scrollTrigger:{
         trigger:"#section3",
-        markers: true,
         id:"section3",
         start:"top 0%",
         end: "+=2000",
@@ -82,25 +79,15 @@ let timelineLogiciel1 = gsap.timeline({
     }
 });
 
-timelineLogiciel1.to(".illustrator",{x:100,})
-.to(".illustrator",{y:200,})
-.to(".illustrator",{x:-100,})
-.to(".illustrator",{y:-10,})
-//Photoshop
-.to(".photoshop",{x:100,})
-.to(".photoshop",{y:200,})
-.to(".photoshop",{x:-100,})
-.to(".photoshop",{y:-10,})
-//HTML
+timelineLogiciel1.to(".css",{x:100,})
 .to(".html",{x:100,})
-.to(".html",{y:200,})
-.to(".html",{x:-100,})
-.to(".html",{y:-10,})
-//CSS
-.to(".css",{x:100,})
-.to(".css",{y:200,})
-.to(".css",{x:-100,})
-.to(".css",{y:-10,})
+.to(".photoshop",{x:100,})
+.to(".illustrator",{x:100,})
+
+
+
+
+
 /*
 //Illustrator RESET
 .to(".illustrator",{x:100,})
@@ -116,4 +103,18 @@ timelineLogiciel1.to(".illustrator",{x:100,})
 
 Draggable.create(".photoDeProfil", {
     type: "x,y",
+
+    onDragEnd: function(){
+        
+    }
 })
+
+Draggable.create(".classeName", {
+    type: "x,y",
+})
+
+Draggable.create(".name", {
+    type: "x,y",
+    },
+)
+

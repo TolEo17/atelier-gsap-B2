@@ -14,11 +14,13 @@
     justify-content: center;
     border: solid;
     border-radius: 2px;
+    border-color: white;
+
 }
 
 h1{
     font-family: "Roboto Slab", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     font-size:85px;
     width: 80%;
@@ -34,6 +36,8 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
 
 }
 
@@ -52,7 +56,7 @@ h1{
 
 .textCarreSection{
     font-family: "Roboto Slab", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     font-size:55px;
     color: white;
@@ -63,6 +67,10 @@ h1{
     justify-content: center;
 }
 
+.pointer {
+    height: 50px;
+    left: 0px;
+}
 
 /* Section 2---------------------------------*/
 
@@ -75,12 +83,21 @@ h1{
     justify-content: center;
     border: solid;
     border-radius: 2px;
+    border-color: white;
 }
 
 .logoEsd{
-    width: 20vw;
-    max-width: 200px;
+    width: 100vw;
+    max-width: 400px;
 
+}
+
+.nameSchool {
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:35px;
+    margin-left: 50px;
 }
 
 .motionPath{
@@ -100,6 +117,8 @@ h1{
     align-items: center;
     border: solid;
     border-radius: 2px;
+    border-color: white;
+
 }
 
 .illustrator {
@@ -139,10 +158,74 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border: solid;
     border-radius: 2px;
+    border-color: white;
+
 }
 .photoTheo {
     height: 150px;
     width: auto;
+}
+
+.boxNom{
+    margin: 50px;
+}
+
+.boxClasse{
+    margin: 50px;
+}
+
+.boxPhoto {
+    margin: 50px;
+}
+
+h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:25px;
+}
+
+.box {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.answerBox {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.answerBoxNom{
+    background-color: #5BBEB6;
+    height: 180px;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+} 
+
+.answerBoxClasse {
+    background-color: #5BBEB6;
+    height: 180px;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.answerBoxPhoto{
+    background-color: #5BBEB6;
+    height: 180px;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h3{
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
+    font-style: normal;
 }
